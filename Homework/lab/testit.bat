@@ -1,0 +1,1 @@
+for %%I in ("%1\*.%2") do copy %%I "%1\copies\%%~nI.%2"

@@ -1,0 +1,21 @@
+<# PowerShell Homework 04 
+
+Marcus Millender
+CSC 368 Systems Programming Languages
+
+	This script repeats the project for the Batch file in order to show parameter passing 
+	and control flow of PowerShell scripts. 
+	
+	Pseudocode 
+		Define parameter names 
+		
+		If <directory parameter> does not specify a directory 
+			display an error message 
+			exit the script 
+		If the sub-directory <directory parameter>\bob does not exist 
+			create the sub-directory 
+
+		For each <file> in the directory <directory parameter> 
+			If <file> is an image of type <extension parameter> 
+				convert <file> -resize 640x <directory parameter>\bob\sm_<file> 
+#>
